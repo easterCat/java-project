@@ -1,14 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-//        Student ahua = new Student("liuliu",12,116);
-//        ahua.setScore(22);
-//        System.out.println(ahua.getScore());
-//        System.out.println(ahua.info());
+        Student ahua = new Student("liuliu", 12, 116);
+        ahua.setScore(22);
+        System.out.println(ahua.getScore());
+        System.out.println(ahua.info());
+        System.out.println(ahua.getBook());
+    }
+}
 
-        Person p1 = new Student("aaaaa",12,212);
-        Person p2 = new Person("bbbbbb",33);
-        Student s1 = (Student) p1;
-        Student s2 = (Student) p2;
+class Book {
+    protected String name = "book";
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
 
@@ -39,7 +47,8 @@ class Person {
 }
 
 class Student extends Person {
-    private int score;
+    protected Book book;
+    protected int score;
 
     public Student(String name, int age, int score) {
         super(name, age);

@@ -163,3 +163,79 @@ Object o2 = s; // upcasting, ok
 ```
 
 注意到继承树是Student > Person > Object，所以，可以把Student类型转型为Person，或者更高层次的Object。
+
+## 向下转型
+
+和向上转型相反，如果把一个父类类型强制转型为子类类型，就是向下转型（downcasting）。
+
+```$xslt
+Person p1 = new Student(); // upcasting, ok
+Person p2 = new Person();
+Student s1 = (Student) p1; // ok
+Student s2 = (Student) p2; // runtime error! ClassCastException!
+```
+
+在向下转型的时候，把p1转型为Student会成功，把p2转型为Student会失败，因为p2的实际类型是Person，不能把父类变为子类，因为子类功能比父类多，多的功能无法凭空变出来。
+
+为了避免向下转型出错，Java提供了instanceof操作符，可以先判断一个实例究竟是不是某种类型
+
+```$xslt
+Person p = new Person();
+System.out.println(p instanceof Person); // true
+System.out.println(p instanceof Student); // false
+
+Student s = new Student();
+System.out.println(s instanceof Person); // true
+System.out.println(s instanceof Student); // true
+
+Student n = null;
+System.out.println(n instanceof Student); // false
+```
+
+instanceof实际上判断一个变量所指向的实例是否是指定类型，或者这个类型的子类。如果一个引用变量为null，那么对任何instanceof的判断都为false。
+
+利用instanceof，在向下转型前可以先判断
+
+```$xslt
+Person p = new Student();
+if (p instanceof Student) {
+    // 只有判断成功才会向下转型:
+    Student s = (Student) p; // 一定会成功
+}
+```
+
+## 区分继承和组合
+
+添加一个Book的类,具有name字段.
+
+```$xslt
+class Book {
+    protected String name;
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+// error
+class Student extends Book {
+    protected int score;
+}
+```
+
+从逻辑上讲，这是不合理的，Student不应该从Book继承，而应该从Person继承。
+
+究其原因，是因为Student是Person的一种，它们是is关系，而Student并不是Book。实际上Student和Book的关系是has关系。
+
+具有has关系不应该使用继承，而是使用组合，即Student可以持有一个Book实例：
+
+```$xslt
+class Student extends Person {
+    protected Book book;
+    protected int score;
+}
+```
