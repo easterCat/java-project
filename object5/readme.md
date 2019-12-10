@@ -239,3 +239,5 @@ class Student extends Person {
     protected int score;
 }
 ```
+
+因此，继承是is关系，组合是has关系。
