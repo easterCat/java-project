@@ -46,4 +46,8 @@ public class Main {
             System.out.println(value);
         }
     }
+
+    public static void Method5() {
+        List<String> list = List.of('111', '222', '333');
+    }
 }
