@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"Li","l":"getNumber()"},{"p":"<Unnamed>","c":"Li","l":"Li()","url":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"Li","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"Li","l":"square(double)"}]
