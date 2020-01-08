@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f98537-63f4-440b-8a94-0787b3d19761" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21-多线程编程/Li.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-多线程编程/Li2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-多线程编程/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-集合Map/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/15-集合Map/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object12-泛型/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-泛型/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object12-泛型/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-泛型/Person2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object12-泛型/Person3.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-泛型/Person3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object12-泛型/Person4.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-泛型/Person4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object12-泛型/Person5.java" beforeDir="false" afterPath="$PROJECT_DIR$/19-泛型/Person5.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +97,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
@@ -119,28 +110,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="21-多线程编程" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577881959487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578374793493" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -189,9 +165,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12958533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13197768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -210,7 +186,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32998884" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
       <window_info anchor="bottom" id="Tail" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24722427" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24722427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,9 +495,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16-Java 流(Stream)、文件(File)和IO/111.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/16-Java 流(Stream)、文件(File)和IO/111.txt" />
     <entry file="file://$PROJECT_DIR$/16-Java 流(Stream)、文件(File)和IO/bin/222.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
