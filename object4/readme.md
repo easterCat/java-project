@@ -8,7 +8,7 @@
 
 > 方法重载的返回值类型通常都是相同的。
 
-```$xslt
+```java
 public class Main {
     public static void main(String[] args) {
         Person say = new Person();
